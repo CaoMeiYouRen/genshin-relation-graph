@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "target": "esnext",
+        "target": "es2019",
         "module": "esnext",
         "moduleResolution": "node",
         "strict": true,
@@ -8,6 +8,7 @@
         "sourceMap": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
+        "noImplicitAny": false,
         "lib": [
             "esnext",
             "dom"

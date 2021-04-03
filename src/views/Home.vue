@@ -1,20 +1,19 @@
 <template>
     <div class="home">
-        <p>{{ message }}</p>
+        <div style="height:calc(100vh - 50px);">
+            <RelationGraph ref="relationGraph" :options="options" />
+        </div>
     </div>
 </template>
 
 <script lang="ts">
 import { defineComponent, ref } from '@vue/composition-api'
+import { useRelationGraph } from '@/composables/useRelationGraph'
 export default defineComponent({
     name: 'Home',
-    components: {
-    },
-    props: {},
     setup(props, ctx) {
-        const message = ref('Hello Home.vue')
         return {
-            message,
+            ...useRelationGraph(),
         }
     },
 })

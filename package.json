@@ -10,6 +10,7 @@
   "dependencies": {
     "@vue/composition-api": "^1.0.0-rc.3",
     "core-js": "^3.9.1",
+    "relation-graph": "^1.1.0",
     "vue": "^2.6.12",
     "vue-composable": "^1.0.0-beta.20",
     "vue-router": "^3.5.1",
