@@ -309,7 +309,7 @@ export const nodes: PeopleNode[] = [
     //     country: '蒙德',
     // },
     // {
-    //     name: '绯烟',
+    //     name: '烟绯',
     //     stars: 4,
     //     weaponType: '法器',
     //     elementAttribute: '火',
