@@ -10,8 +10,7 @@ export function useRelationGraph() {
     }
 
     onMounted(() => {
-        relationGraph.value?.setJsonData(data, (seeksRGGraph) => {
-        })
+        relationGraph.value?.setJsonData(data)
     })
 
     return {

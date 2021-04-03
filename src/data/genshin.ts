@@ -1,13 +1,9 @@
 import { nodes } from './nodes'
 import { links } from './links'
 
-links.sort((a, b) => {
-    return a.from.localeCompare(b.from)
-})
+links.sort((a, b) => a.from.localeCompare(b.from))
 
-nodes.sort((a, b) => {
-    return a.country.localeCompare(b.country)
-})
+nodes.sort((a, b) => a.country.localeCompare(b.country))
 
 const colorMap = new Map([
     ['火', '#aa2116'],
@@ -25,17 +21,15 @@ const lineColorMap = new Map([
 
 const data = {
     rootId: '旅行者',
-    nodes: nodes.map((node) => {
-        return {
-            id: node.name,
-            text: node.name,
-            color: node.color || colorMap.get(node.elementAttribute || '') || '#000',
-            borderColor: 'rgba(0,0,0,0)',
-            width: (node.stars || 4) * 15,
-            height: (node.stars || 4) * 15,
-            data: node,
-        }
-    }),
+    nodes: nodes.map((node) => ({
+        id: node.name,
+        text: node.name,
+        color: node.color || colorMap.get(node.elementAttribute || '') || '#000',
+        borderColor: 'rgba(0,0,0,0)',
+        width: (node.stars || 4) * 15,
+        height: (node.stars || 4) * 15,
+        data: node,
+    })),
     links: links.map((link) => {
         const elementAttribute = nodes.find((e) => e.name === link.from)?.elementAttribute || ''
         // delete link.text

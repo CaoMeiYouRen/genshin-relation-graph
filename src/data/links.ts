@@ -40,13 +40,10 @@ interface Link {
     lineShape?: number
 }
 
-
 export const links: Link[] = [
     ...全人物关系,
-].map((link) => {
-    return {
-        lineWidth: 2,
-        lineShape: 5,
-        ...link,
-    }
-})
+].map((link) => ({
+    lineWidth: 2,
+    lineShape: 5,
+    ...link,
+}))
