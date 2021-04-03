@@ -31,10 +31,16 @@ const data = {
         data: node,
     })),
     links: links.map((link) => {
-        const elementAttribute = nodes.find((e) => e.name === link.from)?.elementAttribute || ''
-        // delete link.text
+        const node = nodes.find((e) => e.name === link.from)
+        let color: string | undefined
+        color = lineColorMap.get(node?.name || '') // 先根据名字获取专属颜色
+        if (!color) { // 如果没有则取属性颜色
+            const elementAttribute = node?.elementAttribute || ''
+            // delete link.text
+            color = colorMap.get(elementAttribute || '')
+        }
         return {
-            color: colorMap.get(elementAttribute || ''),
+            color,
             ...link,
         }
     }),
