@@ -1,5 +1,4 @@
-import RelationGraph from 'relation-graph'
-import { ref, onMounted, watch, Ref } from '@vue/composition-api'
+import { watch, Ref } from '@vue/composition-api'
 
 export function useRelationGraphFilter(relationGraph: Ref<any>, countrys: Ref<string[]>, sexes: Ref<string[]>) {
 

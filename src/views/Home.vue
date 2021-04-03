@@ -41,10 +41,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref, watch } from '@vue/composition-api'
-import { useRelationGraph } from '@/composables/useRelationGraph'
 import { useFilter } from '@/composables/useFilter'
+import { useRelationGraph } from '@/composables/useRelationGraph'
 import { useRelationGraphFilter } from '@/composables/useRelationGraphFilter'
+import { defineComponent } from '@vue/composition-api'
 
 const countrys = [
     '蒙德',
@@ -61,7 +61,7 @@ const sexes = [
 ]
 export default defineComponent({
     name: 'Home',
-    setup(props, ctx) {
+    setup() {
         const { relationGraph, options } = useRelationGraph()
         const { checkItems: checkCountrys, handleCheckItem: handleCheckCountry } = useFilter(countrys)
         const { checkItems: checkSexes, handleCheckItem: handleCheckSex } = useFilter(sexes)
