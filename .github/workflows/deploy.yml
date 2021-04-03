@@ -1,0 +1,33 @@
+name: Deploy
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: "14"
+      - name: Cache multiple paths
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.npm
+            ~/cache
+            !~/cache/exclude
+            **/node_modules
+          key: npm-${{ runner.os }}-${{ hashFiles('package.json') }}
+      - run: yarn
+      - run: npm run lint
+      - run: npm run build
+      - name: Deploy to Github Pages # 部署到 Github Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.GH_TOKEN }}
+          publish_dir: ./dist # 项目构建静态文件的目录
+
