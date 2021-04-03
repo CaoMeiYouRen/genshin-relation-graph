@@ -277,12 +277,14 @@ export const nodes: PeopleNode[] = [
     },
     {
         name: '法尔伽',
+        stars: 5,
         sex: '男',
         country: '蒙德',
     },
     {
         name: '白术',
         stars: 5,
+        elementAttribute: '草',
         sex: '男',
         country: '璃月',
     },
@@ -293,7 +295,33 @@ export const nodes: PeopleNode[] = [
     },
     {
         name: '瑶瑶',
+        elementAttribute: '草',
         sex: '女',
         country: '璃月',
     },
+    // 以下人物还未正式实装，人物关系未知
+    // {
+    //     name: '优菈',
+    //     stars: 5,
+    //     weaponType: '双手剑',
+    //     elementAttribute: '冰',
+    //     sex: '女',
+    //     country: '蒙德',
+    // },
+    // {
+    //     name: '绯烟',
+    //     stars: 4,
+    //     weaponType: '法器',
+    //     elementAttribute: '火',
+    //     sex: '女',
+    //     country: '璃月',
+    // },
+    // {
+    //     name: '神里绫华',
+    //     stars: 5,
+    //     weaponType: '单手剑',
+    //     elementAttribute: '冰',
+    //     sex: '女',
+    //     country: '稻妻',
+    // },
 ]

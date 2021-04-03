@@ -4,6 +4,8 @@ import router from '@/router'
 import store from '@/store'
 import '@/plugins/composition-api'
 import '@/plugins/relation-graph'
+import '@/plugins/element-ui'
+import 'normalize.css'
 
 Vue.config.productionTip = false
 

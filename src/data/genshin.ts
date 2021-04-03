@@ -42,6 +42,11 @@ const data = {
         return {
             color,
             ...link,
+            data: {
+                from: node,
+                to: nodes.find((e) => e.name === link.to),
+                text: link.data,
+            },
         }
     }),
 }
