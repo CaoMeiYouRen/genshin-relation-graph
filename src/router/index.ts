@@ -10,6 +10,11 @@ const routes: Array<RouteConfig> = [
         component: () => import('@/views/Home.vue'),
     },
     {
+        path: '/genshin-relation-graph',
+        name: 'Home',
+        component: () => import('@/views/Home.vue'),
+    },
+    {
         path: '/about',
         name: 'About',
         component: () => import('@/views/About.vue'),
