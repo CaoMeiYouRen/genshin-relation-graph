@@ -3,7 +3,7 @@ import { createVuePlugin } from 'vite-plugin-vue2'
 import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
-    base: './',
+    base: '/genshin-relation-graph/',
     plugins: [
         createVuePlugin({}),
     ],
