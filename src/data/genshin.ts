@@ -1,10 +1,6 @@
 import { nodes } from './nodes'
 import { links } from './links'
 
-links.sort((a, b) => a.from.localeCompare(b.from))
-
-nodes.sort((a, b) => a.country.localeCompare(b.country))
-
 const colorMap = new Map([
     ['火', '#aa2116'],
     ['水', '#145b7d'],
@@ -41,11 +37,15 @@ const data = {
         }
         return {
             color,
+            lineWidth: 3,
+            lineShape: 5,
+            styleClass: 'line-class',
             ...link,
             data: {
                 from: node,
                 to: nodes.find((e) => e.name === link.to),
                 text: link.data,
+                relationship: link.text,
             },
         }
     }),

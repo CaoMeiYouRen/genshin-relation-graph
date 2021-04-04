@@ -1,6 +1,6 @@
 /* eslint-disable max-len */
 /* eslint-disable max-lines */
-interface Link {
+export interface Link {
     /**
      * 关系from节点的id
      *
@@ -40,6 +40,10 @@ interface Link {
     lineShape?: number
 
     data?: any
+}
+
+export interface Line {
+    relations: Link[]
 }
 
 export const links: Link[] = [
@@ -680,11 +684,11 @@ export const links: Link[] = [
         to: '菲谢尔',
         data: '以前我打扫图书馆的时候，记得有本书叫《菲谢尔皇女夜谭》，我还以为只是幻想小说…但没想到，里面的主人公居然真的存在！能有一本自己的传记，她一定很厉害吧。',
     },
-    {
-        from: '诺艾尔',
-        to: '菲谢尔',
-        data: '她好像是从别的世界来的，其他的我也不清楚…不过她好像很喜欢骑士团的图书馆，总是在那里看书。我打扫的时候会送去一些热乎乎的茶点，她每次都会感谢我，还会说很多听不明白，但都很夸张的话…',
-    },
+    // {
+    //     from: '诺艾尔',
+    //     to: '菲谢尔',
+    //     data: '她好像是从别的世界来的，其他的我也不清楚…不过她好像很喜欢骑士团的图书馆，总是在那里看书。我打扫的时候会送去一些热乎乎的茶点，她每次都会感谢我，还会说很多听不明白，但都很夸张的话…',
+    // },
     {
         from: '诺艾尔',
         to: '芭芭拉',
@@ -1274,7 +1278,6 @@ export const links: Link[] = [
     {
         from: '凝光',
         to: '琴',
-        text: '信友',
         data: '蒙德城的代理团长，想必是一位严谨而又细腻的女性吧。且不说她恰如其分的用词，连每张信纸的边缘都折叠得一丝不苟。越是这些容易被人忽视的细节，越能透过它窥见一个人真正的品质。',
     },
     {
@@ -1308,8 +1311,4 @@ export const links: Link[] = [
         to: '法尔伽',
         data: '大团长法尔伽，我能理解他的立场，却无法认同他的做派。呵…是我多言了。我早已不是西风骑士，忘了我说的话吧',
     },
-].map((link) => ({
-    lineWidth: 2,
-    lineShape: 5,
-    ...link,
-}))
+]

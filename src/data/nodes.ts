@@ -1,4 +1,4 @@
-interface PeopleNode {
+export interface PeopleNode {
     /**
      * 姓名
      *
@@ -15,15 +15,38 @@ interface PeopleNode {
      */
     stars?: number
 
+    /**
+     * 武器类型
+     *
+     */
     weaponType?: string
 
+    /**
+     *元素属性
+     *
+     */
     elementAttribute?: string
 
+    /**
+     *性别
+     *
+     */
     sex: string
-
+    /**
+     *国家
+    *
+    */
     country: string
 }
-
+export interface NodeType {
+    id: string
+    text: string
+    color: string
+    borderColor: string
+    width: number
+    height: number
+    data: PeopleNode
+}
 export const nodes: PeopleNode[] = [
     {
         name: '胡桃',
@@ -277,13 +300,13 @@ export const nodes: PeopleNode[] = [
     },
     {
         name: '法尔伽',
-        stars: 5,
+        // stars: 5,
         sex: '男',
         country: '蒙德',
     },
     {
         name: '白术',
-        stars: 5,
+        // stars: 5,
         elementAttribute: '草',
         sex: '男',
         country: '璃月',
