@@ -296,7 +296,6 @@ export const nodes: PeopleNode[] = [
         elementAttribute: '冰',
         sex: '女',
         country: '蒙德',
-
     },
     {
         name: '法尔伽',
