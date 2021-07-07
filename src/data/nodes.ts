@@ -48,7 +48,30 @@ export interface NodeType {
     data: PeopleNode
 }
 export const nodes: PeopleNode[] = [
-
+    // {
+    //     name: '早柚',
+    //     stars: 4,
+    //     weaponType: '双手剑',
+    //     elementAttribute: '风',
+    //     sex: '女',
+    //     country: '稻妻',
+    // },
+    {
+        name: '宵宫',
+        stars: 5,
+        weaponType: '弓',
+        elementAttribute: '火',
+        sex: '女',
+        country: '稻妻',
+    },
+    {
+        name: '神里绫华',
+        stars: 5,
+        weaponType: '单手剑',
+        elementAttribute: '冰',
+        sex: '女',
+        country: '稻妻',
+    },
     {
         name: '法尔伽',
         // stars: 5,
@@ -73,15 +96,15 @@ export const nodes: PeopleNode[] = [
         sex: '女',
         country: '璃月',
     },
-    // {
-    //     name: '神里绫华',
-    //     stars: 5,
-    //     weaponType: '单手剑',
-    //     elementAttribute: '冰',
-    //     sex: '女',
-    //     country: '稻妻',
-    // },
     // 以上人物还未正式实装，人物关系未知
+    {
+        name: '枫原万叶',
+        stars: 5,
+        weaponType: '单手剑',
+        elementAttribute: '风',
+        sex: '男',
+        country: '稻妻',
+    },
     {
         name: '优菈',
         stars: 5,

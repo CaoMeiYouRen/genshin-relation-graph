@@ -44,22 +44,22 @@
                 <h3>人物信息</h3>
                 <el-form label-width="80px">
                     <el-form-item label="姓名">
-                        <el-input v-model="currentNode.name" readonly></el-input>
+                        <el-input v-model="currentNode.name" readonly />
                     </el-form-item>
                     <el-form-item label="稀有度">
-                        <el-input v-model="currentNode.stars" readonly></el-input>
+                        <el-input v-model="currentNode.stars" readonly />
                     </el-form-item>
                     <el-form-item label="武器类型">
-                        <el-input v-model="currentNode.weaponType" readonly></el-input>
+                        <el-input v-model="currentNode.weaponType" readonly />
                     </el-form-item>
                     <el-form-item label="元素属性">
-                        <el-input v-model="currentNode.elementAttribute" readonly></el-input>
+                        <el-input v-model="currentNode.elementAttribute" readonly />
                     </el-form-item>
                     <el-form-item label="性别">
-                        <el-input v-model="currentNode.sex" readonly></el-input>
+                        <el-input v-model="currentNode.sex" readonly />
                     </el-form-item>
                     <el-form-item label="国家">
-                        <el-input v-model="currentNode.country" readonly></el-input>
+                        <el-input v-model="currentNode.country" readonly />
                     </el-form-item>
                 </el-form>
                 <h3>关系信息</h3>
@@ -67,13 +67,13 @@
                     <div v-for="item in currentRelations" :key="item.text">
                         <el-form label-width="80px">
                             <el-form-item label="来自">
-                                <el-input v-model="item.from.name" readonly></el-input>
+                                <el-input v-model="item.from.name" readonly />
                             </el-form-item>
                             <el-form-item label="对方">
-                                <el-input v-model="item.to.name" readonly></el-input>
+                                <el-input v-model="item.to.name" readonly />
                             </el-form-item>
                             <el-form-item label="关系">
-                                <el-input v-model="item.relationship" readonly></el-input>
+                                <el-input v-model="item.relationship" readonly />
                             </el-form-item>
                             <el-form-item label="关系语音">
                                 <el-input
@@ -81,7 +81,7 @@
                                     type="textarea"
                                     autosize
                                     readonly
-                                ></el-input>
+                                />
                             </el-form-item>
                         </el-form>
                     </div>
