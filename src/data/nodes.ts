@@ -13,30 +13,31 @@ export interface PeopleNode {
      * 稀有度
      *
      */
-    stars?: number
+    stars?: 4 | 5
 
     /**
      * 武器类型
      *
      */
-    weaponType?: string
+    weaponType?: '单手剑' | '双手剑' | '长柄武器' | '法器' | '弓'
 
     /**
      *元素属性
      *
      */
-    elementAttribute?: string
+    elementAttribute?: '风' | '岩' | '雷' | '草' | '水' | '火' | '冰' | '风、岩'
 
     /**
      *性别
      *
      */
-    sex: string
+    sex: '男' | '女' | '男/女'
     /**
      *国家
     *
     */
-    country: string
+    country: '蒙德' | '璃月' | '稻妻' | '须弥' | '枫丹' | '纳塔' | '至冬' | '——'
+
 }
 export interface NodeType {
     id: string
@@ -72,6 +73,30 @@ export const nodes: PeopleNode[] = [
         sex: '女',
         country: '璃月',
     },
+    {
+        name: '雷电将军',
+        stars: 5,
+        // weaponType: '长柄武器',
+        elementAttribute: '雷',
+        sex: '女',
+        country: '稻妻',
+    },
+    {
+        name: '九条裟罗',
+        // stars: 4,
+        weaponType: '弓',
+        elementAttribute: '雷',
+        sex: '女',
+        country: '稻妻',
+    },
+    {
+        name: '珊瑚宫心海',
+        // stars: 4,
+        // weaponType: '法器',
+        elementAttribute: '水',
+        sex: '女',
+        country: '稻妻',
+    },
     // 以上人物还未正式实装，人物关系未知
     {
         name: '早柚',
@@ -97,7 +122,6 @@ export const nodes: PeopleNode[] = [
         sex: '女',
         country: '稻妻',
     },
-
     {
         name: '枫原万叶',
         stars: 5,
