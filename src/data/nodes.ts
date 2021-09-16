@@ -73,31 +73,31 @@ export const nodes: PeopleNode[] = [
         sex: '女',
         country: '璃月',
     },
+    // 以上人物还未正式实装，人物关系未知
     {
-        name: '雷电将军',
+        name: '珊瑚宫心海',
         stars: 5,
-        // weaponType: '长柄武器',
+        weaponType: '法器',
+        elementAttribute: '水',
+        sex: '女',
+        country: '稻妻',
+    },
+    {
+        name: '雷电将军(巴尔)',
+        stars: 5,
+        weaponType: '长柄武器',
         elementAttribute: '雷',
         sex: '女',
         country: '稻妻',
     },
     {
         name: '九条裟罗',
-        // stars: 4,
+        stars: 4,
         weaponType: '弓',
         elementAttribute: '雷',
         sex: '女',
         country: '稻妻',
     },
-    {
-        name: '珊瑚宫心海',
-        // stars: 4,
-        // weaponType: '法器',
-        elementAttribute: '水',
-        sex: '女',
-        country: '稻妻',
-    },
-    // 以上人物还未正式实装，人物关系未知
     {
         name: '早柚',
         stars: 4,
