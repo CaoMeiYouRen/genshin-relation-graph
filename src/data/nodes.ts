@@ -78,7 +78,31 @@ export const nodes: PeopleNode[] = [
         sex: '女',
         country: '璃月',
     },
+    {
+        name: '荒泷一斗',
+        stars: 5,
+        weaponType: '双手剑',
+        elementAttribute: '岩',
+        sex: '男',
+        country: '稻妻',
+    },
+    {
+        name: '五郎',
+        stars: 4,
+        weaponType: '弓',
+        elementAttribute: '岩',
+        sex: '男',
+        country: '稻妻',
+    },
     // 以上人物还未正式实装，人物关系未知
+    {
+        name: '托马',
+        stars: 4,
+        weaponType: '长柄武器',
+        elementAttribute: '火',
+        sex: '男',
+        country: '稻妻',
+    },
     {
         name: '珊瑚宫心海',
         stars: 5,
