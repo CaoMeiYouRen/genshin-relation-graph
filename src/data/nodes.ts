@@ -68,6 +68,11 @@ export const nodes: PeopleNode[] = [
         country: '璃月',
     },
     {
+        name: '申鹤',
+        sex: '女',
+        country: '璃月',
+    },
+    {
         name: '瑶瑶',
         elementAttribute: '草',
         sex: '女',
