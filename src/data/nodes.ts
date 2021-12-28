@@ -63,18 +63,46 @@ export const nodes: PeopleNode[] = [
         country: '璃月',
     },
     {
+        name: '瑶瑶',
+        elementAttribute: '草',
+        sex: '女',
+        country: '璃月',
+    },
+    {
+        name: '神里绫人',
+        sex: '男',
+        country: '稻妻',
+    },
+    {
+        name: '八重神子',
+        elementAttribute: '雷',
+        sex: '女',
+        country: '稻妻',
+    },
+    {
+        name: '久岐忍',
+        sex: '女',
+        country: '稻妻',
+    },
+    {
+        name: '鹿野院平藏',
+        sex: '男',
+        country: '稻妻',
+    },
+    // 以上人物还未正式实装，人物关系未知
+    {
         name: '云堇',
+        stars: 4,
+        weaponType: '长柄武器',
+        elementAttribute: '岩',
         sex: '女',
         country: '璃月',
     },
     {
         name: '申鹤',
-        sex: '女',
-        country: '璃月',
-    },
-    {
-        name: '瑶瑶',
-        elementAttribute: '草',
+        stars: 5,
+        weaponType: '长柄武器',
+        elementAttribute: '冰',
         sex: '女',
         country: '璃月',
     },
@@ -94,7 +122,6 @@ export const nodes: PeopleNode[] = [
         sex: '男',
         country: '稻妻',
     },
-    // 以上人物还未正式实装，人物关系未知
     {
         name: '托马',
         stars: 4,
