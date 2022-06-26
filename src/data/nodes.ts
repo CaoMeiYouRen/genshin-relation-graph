@@ -76,6 +76,7 @@ export const nodes: PeopleNode[] = [
         sex: '男',
         country: '稻妻',
     },
+    // 以上人物还未正式实装，人物关系未知
     {
         name: '久岐忍',
         stars: 4,
@@ -84,7 +85,6 @@ export const nodes: PeopleNode[] = [
         sex: '女',
         country: '稻妻',
     },
-    // 以上人物还未正式实装，人物关系未知
     {
         name: '夜兰',
         stars: 5,
