@@ -63,7 +63,7 @@
                     </el-form-item>
                 </el-form>
                 <h3>关系信息</h3>
-                <template v-if="currentRelations.length">
+                <template v-if="currentRelations && currentRelations.length">
                     <div v-for="item in currentRelations" :key="item.text">
                         <el-form label-width="80px">
                             <el-form-item label="来自">
