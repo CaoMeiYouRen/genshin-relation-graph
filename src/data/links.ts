@@ -48,6 +48,46 @@ export interface Line {
 
 export const links: Link[] = [
     {
+        from: '鹿野院平藏',
+        to: '九条裟罗',
+        data: '九条裟罗大人啊…绝对是全天领奉行最严肃的人！真希望她能变得宽容一些，多多体谅下属，别再因为偶尔的缺勤责备我了。说到底，我也是为了查案嘛。',
+    },
+    {
+        from: '鹿野院平藏',
+        to: '荒泷一斗',
+        data: '受人所托，我去牢里给他捎过几次烤堇瓜，有次还正巧听到他在唱歌。说实话，歌词很烂，但唱得不错。蹲牢房的人能有这样的精神状态，不算多见。',
+    },
+    {
+        from: '鹿野院平藏',
+        to: '久岐忍',
+        data: '荒泷派真是个自由多元的组织呀，无论是怎样的风格都能接纳。了不起，了不起，多亏那位阿忍小姐管教有方。我是怎么知道的？哈哈，这已经简单到连推理都算不上了吧？',
+    },
+    {
+        from: '鹿野院平藏',
+        to: '八重神子',
+        data: '说起来，宫司大人的八重堂也会出版推理小说吧？什么时候能请你当面引荐一番？在这个时代，要成为名侦探，实力以外，宣传也不能落下。哎呀呀，我哪有别的心思啦。',
+    },
+    {
+        from: '鹿野院平藏',
+        to: '枫原万叶',
+        data: '万叶他呀，太可靠了。在他的提醒下，线索就像装宝石的匣子被翻倒一样，滚落得满地都是了。我要是也有他那种对于自然的感知力…哦！我明白了！「风」之于他，就像是「直觉」之于我吧！',
+    },
+    {
+        from: '鹿野院平藏',
+        to: '五郎',
+        data: '在这位大将的叮嘱下，我的海祇岛之旅可是热闹了不少，到哪都有军士们盯着。天地良心，我不过是个平平无奇的观光群众，最多算个小小侦探，连白萝卜也不会惦记半根的呀。',
+    },
+    {
+        from: '鹿野院平藏',
+        to: '珊瑚宫心海',
+        data: '珊瑚宫大人我是没见过的。毕竟有她出席的场合，村民们会围个里三圈外三圈吧，我就不凑热闹啦。啊，对，最里面那层还要算上巫女！像我们这样的年轻人，想要获得大家的认可，总要多付出一点努力的。',
+    },
+    {
+        from: '鹿野院平藏',
+        to: '神里绫华',
+        data: '我和神里家的大小姐，只能算点头之交吧。还好我的家族不是什么名门。那种生活，可不适合我呀。',
+    },
+    {
         from: '久岐忍',
         to: '雷电将军(巴尔)',
         data: '解除锁国后，雷电将军陆续颁布了不少法令支持各行各业的发展。我在锁国期间考的证书全都派上了用场，荒泷派也不那么拮据了。祸福相依，没想到到头来还得感谢她。',
@@ -1235,6 +1275,11 @@ export const links: Link[] = [
     },
     {
         from: '达达利亚',
+        to: '丝柯克',
+        data: '有多少年没见到师父了呢。哼，下次和她比试的时候，希望至少能逼她用上双手来对付我。もう何年師匠に会ってないんだろうな。次に彼女と手合わせする時は、少なくとも両手を使わせてやりたいよ。It\'s been years since I last saw my master. I should hope that next we meet, I\'ll at least be able to force her to use both hands to beat me...사부님을 뵙지 못한 게 벌써 몇 년째인지. 사부님은 나랑 겨룰 때 항상 한 손만 사용해. 다음번엔 적어도 양손 모두 사용하게 할 거야',
+    },
+    {
+        from: '达达利亚',
         to: '钟离(摩拉克斯)',
         data: '那家伙城府很深，不知真正的实力又如何呢…哼，真令人期待。',
     },
@@ -1242,6 +1287,56 @@ export const links: Link[] = [
         from: '达达利亚',
         to: '法尔伽',
         data: '法尔伽吗？哼，光是想到，有朝一日能和西风骑士团的顶点，传说中的「北风骑士」交手，就兴奋得颤抖。活在这个世界上，真是美妙。',
+    },
+    {
+        from: '达达利亚',
+        to: '「丑角」',
+        data: '他是愚人众最初的执行官，也是今日执行官们的领袖，只会在大场面出现。至于他的功绩…坦白说，我不关心。我效忠的对象是女皇大人。彼はファデュイ最初の執行官で、今の執行官たちのリーダーでもある。ただ、重要な場面でしか姿を見せないんだ。彼の功績については…正直、興味がない。俺が忠誠を誓うのは女皇様だからね。He was the first ever Fatui Harbinger, and today he is our leader. He only appears on important occasions. As for his accomplishments... To be honest, I don\'t really care. I owe my loyalty and devotion to the Tsaritsa, no one else.그는 우인단 최초의 집행관이자 오늘날 집행관들의 리더야. 주로 중요한 자리에서만 모습을 드러내지. 그의 업적은… 솔직히 관심 없어. 내 충심은 오로지 여왕님을 위한 거니까',
+    },
+    {
+        from: '达达利亚',
+        to: '「队长」',
+        data: '我曾见过他在战场上的模样，实在是过于强悍了。或许我的席位太靠后了吧，让他没有留意到我。但就算今天被他忽视，明天，我也会让他看到我的实力。昔、戦場で彼の戦いを見たことがある。その姿はあまりに勇猛なものだったよ。ただ俺の席は後ろすぎる、たぶん彼は俺のことに気付いていなかっただろう。けど、たとえ今日見向きされなくても、明日こそは、俺の実力を彼に見せてやりたい。I\'ve seen him in battle before, and oh what a sight it was. Perhaps I\'m ranked too low for him to notice me right now. Well, he may not recognize my strengths yet, but one day, I\'ll show him what I\'m made of.난 전장에서 그의 모습을 본 적 있어. 정말 더할 나위 없이 강했지. 내 순위가 너무 뒤쪽이라 날 주의 깊게 보지는 않은 모양이야. 비록 지금은 무시당해도, 언젠가 꼭 내 실력을 보여주겠어',
+    },
+    {
+        from: '达达利亚',
+        to: '「博士」',
+        data: '听说他把不同年龄段的自己切片做成了义体，负责不同的任务。没办法，我的同僚都是些不太正常的人。反过来想想，要是某一天，我遇见了自己的义体…哈，肯定得和对方决出真正能活下去的那一个。彼は年齢別に自分の義体を作って、様々な任務を担当させているらしい。しょうがないさ、俺の同僚はみんな変わり者ばかりだからね。でも、逆に考えよう、仮に俺が自分の義体と出会ったら…ハハッ、きっと生き残るほうを決めるために、そいつと戦うことになるよね。I heard that he took segments of himself at different ages, made prostheses out of them, and assigned different tasks to each one. I know... all my comrades are a little weird. Come to think of it, if I met my own prosthesis... Hah, we\'d have to fight then and there to decide which one of us gets to survive.그는 다른 나이대의 자신의 일부를 사이보그로 만들어 각기 다른 임무를 맡겼다고 해. 내 동료들은 모두 정상이 아닌 것 같아. 생각해 봤는데, 만일 어느 날 내가 내 사이보그를 만난다면… 하, 둘 중 누가 살아남을 자격이 있는지 결판을 내야겠지',
+    },
+    {
+        from: '达达利亚',
+        to: '「少女」',
+        data: '愚人众执行官的席位是按照实力划分的，我不明白那个女孩为什么是「第三席」。有机会的话，我是想和排在我之前的执行官都比试一遍啦，但总有种不太想和她交手的感觉…不管怎么说，你也小心一点。ファトゥスの席は実力によって決まる。けど、なんであの子が「第三位」にいるのかはよく分からないんだ。もし機会があったら、俺より前にいる執行官たちと一度戦ってみたいね。ただ、どうしてか彼女とはあまり戦う気が起きないんだ…とにかく、君も気を付けたほうがいい。The Fatui Harbingers are ranked by strength, and I have no idea why that girl is No. 3. I\'d test my skills with every Harbinger who ranks above me if I had the chance, but when it comes to her... something just doesn\'t feel right. Anyway, you should be careful around her.우인단 집행관 순위는 실력으로 정하는 건데, 어째서 그 여자아이가 「3위」인지 이해할 수 없어. 기회가 된다면 내 앞 순번 집행관들과 전부 붙어보고 싶은데, 그 애는 좀 꺼려진다랄까…. 어쨌든 너도 조심하는 게 좋을 거야',
+    },
+    {
+        from: '达达利亚',
+        to: '「仆人」',
+        data: '我不讨厌有自己打算的人。毕竟我加入愚人众，也是为了获得更多争斗的机会。但这个人，我不喜欢。如果背叛能够获得收益，她会毫不留情地向女皇大人挥剑。她的眼里只有疯狂。打算的な人は別に嫌いじゃない。何しろ、俺がファデュイに入ったのだって、戦う機会がもっと欲しいからだ。けど、俺はどうしてもこいつのことが気に入らない。裏切ることで利益を手にできるのなら、彼女は躊躇なく女皇様に刃を向けるだろう。彼女の目には、狂気しかないからね。Look, I\'ve got nothing against people who have their own agendas — I myself joined the Fatui to get more experience in combat. But I don\'t like her at all. If she stood to benefit from betraying others, she\'d turn against the Tsaritsa in a heartbeat. There isn\'t a sane bone in her body.난 꿍꿍이가 있는 사람이 싫지 않아. 어쨌든 나도 더 많은 전투를 원해서 우인단의 일원이 됐으니까. 하지만 그 사람은 싫어. 배신으로 이익을 얻을 수 있다면 가차 없이 여왕님께 검을 휘두를 사람이거든. 그녀의 눈엔 광기뿐이야',
+    },
+    {
+        from: '达达利亚',
+        to: '「公鸡」',
+        data: '我不懂什么人情世故。但我知道，他是真心想要帮助我的。他看我的眼神，就像看待家人一样。哦，说到这个，冬妮娅和托克给我回信的时候，时常提到他送去家里的馅饼和礼物。在我暂别冬都期间，他确实按照约定，照顾好了我的家人们。俺は義理や人情といったものがよく分からない。けど、彼が本当に俺のことを助けたいと思っているのは知っている。俺を見る時の彼の眼差しは、まるで家族を見るもののようだよ。ああ、そういえば、トーニャとテウセルからの手紙には、彼がうちに送ってくれたパイやプレゼントのことがよく書いてある。どうやら、俺が冬国を離れている間、彼は約束通り、俺の家族の面倒をよく見てくれているみたいだ。I don\'t know what his motivations could be, but he seems genuine about wanting to help me. He treats me just like family. Oh, and speaking of family — Tonia and Teucer are always telling me about the pastries and other gifts he brings them when they write. So while I\'ve been away from Snezhnaya, he\'s kept his promise to take care of my family.난 세상 물정을 잘 모르지만 그가 날 진심으로 돕고 싶어 한다는 것만은 알고 있어. 그는 마치 가족을 보듯이 날 보거든. 아, 말이 나와서 말인데, 토니아와 테우세르의 답신 중에, 그가 보낸 파이와 선물이 자주 언급되곤 해. 내가 잠시 겨울 나라를 떠난 동안, 약속대로 내 가족들을 챙겨준 모양이야',
+    },
+    {
+        from: '达达利亚',
+        to: '「木偶」',
+        data: '好像是个埋头研究的人？我想想，那些机械是不是都跟她有关啊。总之，仅有几次的见面中，她一副想杀了我的眼神。可我完全不记得做过什么惹她生气的事。研究に没頭している人らしい。ということは、あれらの機械も彼女と何か関係があるんだろうか。とにかく、彼女と会ったのはたった数回だけだというのに、いつも俺を殺したそうな目で見てくる。彼女を怒らせるようなことをした覚えは、まったくないんだけどね。She always seems engrossed in her research. Hmm... I wonder if those machines have anything to do with her? Anyway, I\'ve only met her a few times, but every time she looked like she wanted to murder me. I have no idea what I possibly could have done to annoy her, though.연구만 하는 사람 같던데? 생각해 보니 그 기계들은 모두 그녀와 관련된 게 아닐까 싶네. 아무튼, 별로 만난 적도 없는데 날 죽일 듯이 노려보더라. 내가 뭘 그렇게 화나게 했는진 나도 잘 모르겠어',
+    },
+    {
+        from: '达达利亚',
+        to: '「富人」',
+        data: '哦，那个满脑子「宏大计划」的野心家。他的那些理论，我半句都听不进去啊。总之，只要后备资金管够就好啦。ああ、「壮大な計画」ばかり考えているあの野心家のことか。彼の理論はまったくもって頭に入ってこないよ。とにかく、不測の事態に備えた資本が十分にあるならそれでいい。Oh, now that guy has a head full of grandiose plans fueled by raw ambition. I don\'t understand a word he says once he starts talking about his theories... Eh, but as long as he keeps our cash reserves stocked up, I\'m not complaining.아, 머릿속에 「방대한 계획」으로 가득 찬 그 야심가 말이군. 그의 이론들은 단 하나도 이해되지 않던데 말이야. 암튼, 예비 자금만 잘 관리해 주면 됐어',
+    },
+    {
+        from: '达达利亚',
+        to: '「女士」',
+        data: '我和她合不来，你是知道的。如今也不必评价她本人了吧。对于执行官而言，死期并不掌握在自己手上…不过，放心，我是无论如何，都会拼尽全力活下去的。君も知っていると思うけど、俺は彼女と馬が合わないんだ。それに、今となっては、彼女のことを語る必要もないだろう。ファトゥスにとって、死期は自分で決められるようなものじゃない…でも安心してくれ、何があろうとも、俺は全力で生きていくから。I never got along with her, you know that. I guess there\'s not much more worth saying about her at this point. When you\'re a harbinger, you have to accept that death could come at any time... But don\'t worry about me. No matter what happens, I\'ll do whatever it takes to keep myself alive.내가 그녀와 맞지 않는 건 너도 알고 있잖아. 이제 와서 그녀를 평가할 필요도 없겠지. 집행관은 자신의 목숨을 좌우할 수 없어…. 하지만 걱정 마, 나는 어떻게든 살아남을 거야',
+    },
+    {
+        from: '达达利亚',
+        to: '「散兵」',
+        data: '他带着「神之心」与我们失去了联络，后面才有了追回那颗心的行动。我倒是不介意去四处走走，说不定还能在哪儿和你偶遇？彼は「神の心」を手に入れた後、俺たちとの連絡を断ってしまってね。だから、その心を取り戻すために行動を開始した。俺は色んな場所を回るのは別に構わない。もしかすると、偶然どこかで君に会うかもしれないね。After he took the Gnosis, we lost all contact with him. Now comes the task of trying to hunt it down and get it back... I actually don\'t mind it — it means I get to travel all over. Wonder if I\'ll run into you somewhere along the way?그는 「신의 심장」을 가진 후로 우리와 연락이 끊겼어. 그래서 그 심장을 회수하는 작전이 있었던 거지. 난 여기저기 돌아다니는 것을 개의치 않거든. 어쩌면 어디선가 너와 우연히 만나게 될지도 모르고?',
     },
     {
         from: '可莉',
