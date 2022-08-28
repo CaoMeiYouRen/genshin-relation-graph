@@ -70,6 +70,30 @@ export const nodes: PeopleNode[] = [
     },
     // 以上人物还未正式实装，人物关系未知
     {
+        name: '多莉',
+        stars: 4,
+        weaponType: '双手剑',
+        elementAttribute: '雷',
+        sex: '女',
+        country: '须弥',
+    },
+    {
+        name: '柯莱',
+        stars: 4,
+        weaponType: '弓',
+        elementAttribute: '草',
+        sex: '女',
+        country: '须弥',
+    },
+    {
+        name: '提纳里',
+        stars: 5,
+        weaponType: '弓',
+        elementAttribute: '草',
+        sex: '男',
+        country: '须弥',
+    },
+    {
         name: '鹿野院平藏',
         stars: 4,
         weaponType: '法器',
