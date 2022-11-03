@@ -48,6 +48,186 @@ export interface Line {
 
 export const links: Link[] = [
     {
+        from: '纳西妲(布耶尔)',
+        to: '赛诺',
+        data: '他讲的笑话确实深奥，还挺有意思的。嗯？你有哪句没听懂吗？那我解释给你听吧。彼の話すジョークは奥が深くて、なかなか面白いわ。え？意味の分からなかったものがある？なら、私が解説してあげるわ。His jokes are like buried treasure: gems hidden beneath the surface. They\'re a lot of fun. Hmm? Well, which part didn\'t you get? Okay, I can explain it for you.사이노의 농담은 심오하면서도 재밌어. 응? 못 알아들었다고? 그럼 내가 설명해 줄게',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '提纳里',
+        data: '雨林能够对抗「死域」的侵蚀，至今都生机焕发，巡林官们的付出举足轻重，而提纳里又是他们之中的佼佼者。只是…希望他可以稍稍温柔一些，这样才更有利于巡林员招新纳贤嘛。雨林が「死域」の侵蝕に対抗し、今でも活気に満ち溢れていられるのは、レンジャー長たちの働きがあってこそ。ティナリはその中でもずば抜けた存在よ。ただ…もう少しだけ優しい接し方をしてくれたら、新しいレンジャーの募集も捗るんだけど。The Forest Watchers played an essential role in helping the rainforest to withstand the Withering and continue to flourish, and Tighnari is the best of them all. Still... I do hope he learns to be a little gentler with people. Otherwise, it\'s gonna be difficult for the Forest Rangers to attract new top talent.우림이 「죽음의 땅」의 침식에 대항하고 오늘날까지 생기발랄한 모습을 유지할 수 있는 건 숲의 순찰관의 역할이 컸어. 타이나리는 그중에서도 특출났지. 다만… 성격이 조금 더 온화해졌으면 좋겠어. 그래야 숲의 순찰자 지원자가 더 많이 생길 거야',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '柯莱',
+        data: '我听说过她的故事，她的坚韧如宝石般璀璨夺目。她经历了太多，希望须弥的葱绿能够长久地庇护她，令她像普通的女孩子那样健康成长。彼女のことは聞いたことがあるわ。そのタフな精神は宝石のように輝いていて、目を奪うものだった。あまりにも多くのことを経験してきたのね…彼女がスメールの豊かな緑に守られ、普通の女の子と同じように健康に成長できることを祈っているわ。When I heard her story for the first time, her tenacity shone through like a dazzling gemstone. She\'s been through so much... I hope that just as the rainforest supports all kinds of life, Sumeru will always provide a safe and nurturing environment for her, so that she can grow up healthy and strong.콜레이에 대해 들어본 적 있어. 콜레이의 의지는 보석처럼 단단하고 눈부시다고 해. 많은 시련을 겪은 그 아이가 평범하고 건강하게 자랄 수 있게, 수메르의 초목의 가호가 함께하기를',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '艾尔海森',
+        data: '他拥有很超前的知识体系，并且每时每刻都在保持思考，或许这个世界上没有什么事能瞒过他吧。然而对智慧者而言，普通人的凡庸是一种与生俱来的错吗？那都是「我们」不可分割的一部分。彼は遥か先を行く知識体系を持っていて、常に思考を巡らせている。もしかしたら、この世で彼に隠し通せるものなんてないのかもしれないわね。智者からすれば、平凡な人々の凡庸さは生まれ持っての過ちと言うけれど…本当にそう？私は…それら凡庸さも含めて「私たち」にとって不可欠な一部なのだと思っているわ。He holds a body of knowledge more advanced than most could imagine, and his mind is constantly thinking, so maybe nothing in this world could ever fool him. But is the wise man truly wise to view the mediocre majority as defective? Because without them, there is no us.알하이탐은 시대를 앞서가는 지식 체계를 가지고 있으며 항상 사고를 유지하지, 세상에서 알하이탐을 속일 수 있는 건 없을 거야. 하지만 지혜로운 자는 일반인의 평범함을 타고난 잘못이라고 생각하는 걸까? 그건 「우리」에게 있어서 떼어낼 수 없는 부분인데 말이야',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '妮露',
+        data: '我曾经借用别人的身体，问她想不想让小吉祥草王来看她的舞蹈…虽然我已经悄悄看了很多次，但按理来说，应该要我本人到场，才算是对她「花神诞祭」表演的尊重。结果我却被委婉地拒绝了…唔，有点伤心。昔、他の人の体を借りて、クラクサナリデビに踊りを見てほしいかどうか、彼女に聞いたことがあるの…実はもう何度もこっそり見たのだけれど…彼女の「花神誕祭」におけるパフォーマンスに敬意を示すためにも、理屈上は私が現場に居合わせる必要があるでしょう？でも結局、遠回しに断られてしまったの…うぅ、少し悲しいわ。I once borrowed someone else\'s body to ask her if she\'d mind allowing Lesser Lord Kusanali to watch her dance... Actually, I had already watched her lots of times before in secret, but I wanted to attend her dance at the Sabzeruz Festival properly, in person, as a sign of respect. Anyway, it turned out that she gently declined the offer... I was a little sad about that.다른 사람의 몸을 빌려 닐루에게 물어본 적이 있어. 자신의 공연에 작은 쿠사나리 화신을 초대하고 싶은지 말이야…. 물론 난 몰래 공연을 몇 번 봤지만, 그래도 직접 가는 게 「화신(花神) 탄신 축제」 공연에 대한 예의잖아. 하지만 결국 거절당했어… 음, 좀 가슴 아프네',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '多莉',
+        data: '她见到我的第一句话就是，「我看上了你的宫殿，怎么卖啊？」净善宫怎么可能卖给她呢？不过她的问题确实把我问住了，我想了好久，也不知道净善宫该定价多少摩拉…彼女が私に初めて会った時、開口一番に「あなたの宮殿を気に入りましたわ、いくらなら売ってくださりますの？」と言われたわ。スラサタンナ聖処を売るなんてできないけど、その質問には確かに悩まされたわ。とても長い間考えたのだけれど、結局どれだけの値をつけるべきか分からなかったの…The first thing she said when she saw me was "Nice palace. How much?" Of course, I couldn\'t possibly sell her the Sanctuary of Surasthana. But still, her question had me stumped. I thought about it long and hard, but I still can\'t figure out how much Mora it\'s worth...도리는 날 처음 보자마자 「궁전이 마음에 드는데 얼마에 팔 거야?」라고 물었어. 정선궁을 팔 생각은 없었지만, 질문에는 답할 수 없었지. 아무리 생각해봐도 정선궁의 가치를 모라로 매길 수 없었거든…',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '卡维',
+        data: '他对须弥推行智慧这一事的理解，已经非常接近本质了，很可惜的是，他掌握的真相无法成为这个国度的主流。什么？你说他和艾尔海森是室友？世上居然还有这种可能性…スメールの知恵を実践することにおいて、すでに彼の理解は本質にとても近いところまで辿り着いている。ただ惜しいことに、彼の把握している真実は、この国の主流にはなれないわ。え？彼って、アルハイゼンと同居しているの？この世にこんな可能性があったなんて…He has an almost-perfect grasp of what it truly means for Sumeru to be a Nation of Wisdom. Sadly, the truth as he understands it will never be accepted as the mainstream. Hmm? He\'s roommates with Alhaitham? Wow... the world really is full of surprises...수메르가 지식을 전파하는 것에 대한 카베의 이해는 거의 본질에 가깝지만 아쉽게도 그가 파악한 진실은 이 나라의 주류가 될 수 없어. 뭐? 카베가 알하이탐의 룸메이트라고? 세상에 이런 일이…',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '珐露珊',
+        data: '她的身体遭受了赤王遗迹中残留力量的影响，就像是被时间这只大乌龟不小心甩下了背，永远忘在了身后。如果你感兴趣的话，应该能从她身上窥见过去须弥的一角吧。彼女の体は、キングデシェレト遺跡に残留していた力に影響されてしまったの…まるで時間という大きな亀の背から落ちて、永遠に置き去りにされてしまったかのように。興味があるなら、あるいは…彼女を通して、過去のスメールの片隅を覗けるかもしれないわね。She is suffering from exposure to remnants of King Deshret\'s power. It\'s as if the great tortoise of time accidentally threw her off its back and left her suspended in the past. If you\'re interested, you should be able to catch a glimpse of Sumeru from a bygone age through her.파루잔의 몸은 적왕의 유적에 있는 잔재의 힘의 영향을 받아, 시간이라는 거북이의 등에서 떨어지고 영원히 잊혀졌지. 관심이 있다면 그녀를 통해 과거 수메르의 일각을 엿볼 수 있을 거야',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '尘世七执政',
+        data: '好像尘世七执政之间在很久很久以前还会定期联络，只是我的情况比较特殊，已经不记得这段经历了…既然须弥的混乱告一段落，我觉得我该重新见他们一面。你熟识的那几位神明，能为我引荐一下吗？彼女の体は、キングデシェレト遺跡に残留していた力に影響されてしまったの…まるで時間という大きな亀の背から落ちて、永遠に置き去りにされてしまったかのように。興味があるなら、あるいは…彼女を通して、過去のスメールの片隅を覗けるかもしれないわね。I\'m led to believe that long, long ago, the Seven Archons used to stay in regular contact with each other. I\'m a bit of a special case though, so I don\'t have any memory of that time... Now that things have settled down in Sumeru, I think it\'s about time I made contact with them again. You\'re on familiar terms with some of them, right? Would you mind introducing me?아주 아주 오래전에 7명의 집정관은 정기적으로 연락을 주고받았지만, 나는 상황이 좀 특수해서 그때의 기억이 없어…. 수메르의 혼란이 어느 정도 마무리되었으니 다시 만나보고 싶은데, 네가 잘 아는 신들을 나에게 소개 좀 해줄 수 있을까?',
+    },
+    {
+        from: '纳西妲(布耶尔)',
+        to: '散兵',
+        data: '当他自认为追寻已久的愿望终于实现，他眼中所见的究竟是满足，还是更大的空虚呢？正是因为我们不会飞，才会无比向往天空…让他好好想想吧，在拥抱过空无一物的天空之后。長きにわたって追い求めていた願いがようやく叶ったと思った時、彼の瞳に映るものは満足？それとも虚しさかしら？私たちは飛べないからこそ、空に焦がれる…彼にはきちんと考えてほしいものね、からっぽの空を抱いたその後に。When he finally achieved the ambition he thought he\'d been pursuing all along, was he content at last, or only emptier still? We only yearn for the skies because we cannot fly... Hmm, perhaps he should reflect on this once he has held the sheer emptiness of the skies in his grasp.오랫동안 추구해왔던 염원이 이루어졌을 때 그는 만족했을까, 아니면 더 공허해졌을까? 우리는 날지 못하기 때문에 하늘을 날고 싶어 하지… 그가 텅 빈 하늘을 가지고 난 다음 다시 생각해 보라고 하자',
+    },
+    {
+        from: '妮露',
+        to: '赛诺',
+        data: '教令院的人，我不太敢接触，毕竟他们对歌舞艺术的印象都不好。我常常会想，那他们会通过什么来解闷呢？呃…你说赛诺的话，会玩「七圣召唤」？真是不可思议呢。教令院の人とは、あまり関わり合いたくないの。だって、彼らは歌や舞といった芸術にいい印象を持っていないから。どうやって退屈をしのいでるんだろうっていつも思うんだ。えっ…セノの場合は、「七聖召喚」をやってるの？なんだか変な感じがするね…I don\'t really like interacting with people from the Akademiya because they don\'t view the arts too kindly. I often wonder what they do when they\'re bored... Huh, Cyno plays Genius Invokation TCG? I can\'t believe it...아카데미아 사람은 다가가기가 꺼려져. 춤과 노래 같은 예술을 안 좋게 보거든. 그 사람들은 스트레스를 어떻게 푸는지 종종 생각하곤 해. 음… 사이노는 「일곱 성인의 소환」을 한다고? 뭔가 상상이 안 돼',
+    },
+    {
+        from: '妮露',
+        to: '提纳里',
+        data: '据说他是很厉害的植物学家。那他分辨蘑菇的本领肯定很厉害，至少不会吃到毒蘑菇…好羡慕呀。彼はすごい植物学者なんだって。なら、キノコを見分けるのもきっと得意だよね。少なくとも、毒キノコを食べてしまうなんてことはないはず…羨ましいな…I hear he\'s a really talented botanist. He must be good at telling apart mushrooms. At least, he would never have to worry about eating a poisonous one... I\'m so jealous.아주 훌륭한 식물학자라고 들었어. 버섯을 구분하는 능력도 정말 뛰어날 거야. 그럼 독버섯을 먹을 일은 없겠지…? 부럽다',
+    },
+    {
+        from: '妮露',
+        to: '柯莱',
+        data: '她偶尔会来看我的演出，是一位很热心的见习巡林员呢。她还提醒过我小心迷路，这是为什么呢？我也没有迷路过呀。彼女はたまに私の舞台を見に来てくれるんだ。とても熱心な見習いレンジャーだよ。それから、迷子にならないように注意してくれたこともあったな。でも、どうしてだろう？道に迷ったことなんてないのに…She sometimes comes to watch my performances. She\'s a really hard-working Trainee Forest Ranger. One time, she warned me about getting lost. What did she mean by that? It\'s not like I\'ve gotten lost before...가끔 내 공연을 보러오는데 정말 친절한 숲의 견습 순찰자야. 나한테 길을 잃어버리지 말라고 당부까지 하던데, 왜 그런 걸까? 난 길을 잃은 적이 한 번도 없는걸',
+    },
+    {
+        from: '妮露',
+        to: '卡维',
+        data: '我听说是他建造了华美的艾尔卡萨扎莱宫，能建造出那样的作品，过程应该快乐又陶醉吧。就像我练舞的时候一样，只要一想到能跳给大家看，就充满了喜悦和动力呢。あの華やかなアルカサルザライパレスを建てたのは、彼だって聞いたよ。あんな作品を生み出せるなんて、作業中はきっと楽しくて夢中だったんだろうね。きっとみんなに披露したいという思いが、喜びやモチベーションに繋がってたんだと思うよ、まるで私がダンスを練習する時と同じみたいにね。I heard he was the one who built the magnificent Palace of Alcazarzaray. He must have had a wonderful time making such a masterpiece, like when I\'m in the middle of dance practice. Just thinking about dancing for everyone gives me so much happiness and motivation.그 사람이 아름다운 알카자르자레궁을 지었다고 들었어. 그런 작품을 만들 수 있다는 건 정말 즐거운 일이겠지? 내가 춤을 연습할 때 사람들에게 선보일 생각을 하면 엄청 기쁘고, 동기부여가 되는 것처럼 말이야',
+    },
+    {
+        from: '妮露',
+        to: '迪希雅',
+        data: '最近发生了那么多事情，总觉得很不可思议。我原本想为迪希雅和迪娜泽黛挑选一些合适的礼物。但我自己拿不定主意，嗯…要是把大巴扎朋友们推荐的品种全送去，又太多了。哎呀，到底该怎么办才好呢？最近は色々なことがあって、なんだか不思議な感じがするの…ディシアとドニアザードにプレゼントを贈りたいんだけど…何がいいか自分一人じゃ決められなくって。グランドバザールのみんながおすすめしてくれたものを全部贈ったら、さすがに多いよね。どうしたらいいんだろう…It\'s hard to believe that so many things have happened recently... I wanted to pick out a good present for Dehya and Dunyarzad, but I just can\'t make up my mind. Everyone at the Grand Bazaar has given me many suggestions, but if I took them all, it\'d be too much... What should I do...근래에 이렇게 많은 일들이 있었다니 정말 믿기지 않아. 데히야와 두냐르자드에게 적절한 선물을 하고 싶은데… 도저히 결정을 못 내리겠어. 바자르 친구들이 추천해 준 것을 다 주려고 하니 너무 많고, 어떻게 하면 좋을까?',
+    },
+    {
+        from: '妮露',
+        to: '多莉',
+        data: '出手阔绰的多莉大商人也曾看过我跳舞。我记得，有一次她和祖拜尔先生商量了什么事情，之后就再也没来过了。会是什么事情呢？嗯…呃？你是说她可能想带我进行一场提瓦特巡演？不会吧，祖拜尔先生肯定帮忙拒绝了吧…应该拒绝了吧…あの気前のいい大商人のドリーも私のダンスを見てくれたことがあるんだ。でも確か、ズバイルさんと何か話し合った後、来なくなっちゃったんだよね。一体何があったんだろう？…え？彼女は私を連れてテイワットでツアーを行いたかった？それはないと思うよ、ズバイルさんもきっと断ってくれてるだろうし…たぶん…The big-spending merchant Dori has watched me dance before. I remember that she talked with Mr. Zubayr once, and then never came back. Did something happen? ...Huh? She wanted me to go on tour around Teyvat? No way, Mr. Zubayr definitely would\'ve refused for me! ...Ahh, please tell me he has...통이 큰 도리 상인도 내 춤을 본 적이 있어. 한 번은 그 상인이 주바이르 씨와 무슨 이야기를 나누었는데, 그 뒤로는 안 오더라고. 도대체 무슨 이야기를 했을까? …어? 날 데리고 티바트 순회공연을 하려던 걸 수도 있다고? 그럴 리가, 주바이르 씨가 대신 거절해 주셨을 거야… 거절하셨겠지…?',
+    },
+    {
+        from: '妮露',
+        to: '纳西妲(布耶尔)',
+        data: '大巴扎的大家都很喜欢小吉祥草王大人，好想听听她对我跳的花神之舞的评价呀…啊！不、不，还是算了算了。她真的来了，我肯定会紧张得不得了。グランドバザールのみんなは、クラクサナリデビ様のことが大好きなんだ。あの方から私の「花神の舞」の評価を聞けたらなぁ…あっ！や、やっぱり大丈夫…もし本当に来てくださったら、きっとすごく緊張しちゃうから…The people of the Great Bazaar love Lesser Lord Kusanali. I\'d love to hear her thoughts on my Dance of Sabzeruz... Oh, no, no, forget it... If she were in the audience, I\'d get stage fright...바자르 사람들은 다들 작은 쿠사나리 화신님을 좋아해. 그분이 내가 추는 화신(花神)의 춤을 어떻게 평가하실지 너무 궁금해…. 아! 아니다, 역시 그만두는 게 좋겠어. 막상 보러 오시면 긴장해서 아무것도 못 할 거야…',
+    },
+    {
+        from: '赛诺',
+        to: '提纳里',
+        data: '提纳里和我见过的其他学者不同。他对知识同样有着很深的执着，却始终不会逾越那道红线。有些学者会将自己视为「实验室中的神明」，但提纳里不会，他一直平等地尊重每一种生命。听说他拒绝了教令院的聘请，我也站在他这一边。',
+    },
+    {
+        from: '赛诺',
+        to: '柯莱',
+        data: '我曾经帮她封印了体内的魔神残骸，但封印的过程给她带来了很大的痛苦。那种程度的痛苦可能比死亡更让人害怕，她能够坚持下来，很了不起。',
+    },
+    {
+        from: '赛诺',
+        to: '艾尔海森',
+        data: '我不太喜欢过于聪明的人，他们总是自认为能掌控一切，从而经常在危险的边缘游走。不过艾尔海森还算稳定，在绝大部分场合，他确实有掌控局面、化险为夷的能力。',
+    },
+    {
+        from: '赛诺',
+        to: '卡维',
+        data: '提纳里和柯莱没有亲口说出来，但他们之间的眼神交流已经说明了一切。卡维分享的亲身经历比我准备的笑话有趣多了。我的看法？我觉得他们会为这种事情发笑，反倒是挺好笑的。',
+    },
+    {
+        from: '赛诺',
+        to: '珐露珊',
+        data: '我曾仔细翻阅过记载珐露珊前辈失踪的案卷，那时候我怀疑她进行了某种危险的研究…不过与她见面之后，我就彻底打消了这个念头。虽然相处起来有些困难，不过她就像一位喜欢絮絮叨叨的长辈，心里会为他人着想，不会做什么出格的事情。',
+    },
+    {
+        from: '赛诺',
+        to: '丽莎',
+        data: '丽莎和我曾向同一位贤者求学，我自然知道她的事。身为大风纪官，我也见过许多过分追求知识而引发的悲剧，所以能理解她的选择。',
+    },
+    {
+        from: '坎蒂丝',
+        to: '纳西妲(布耶尔)',
+        data: '草神啊…作为阿赫玛尔血脉延续的我既然能在此安然生存，或许也仰赖她的仁慈吧。不过，虽说心中怀有淡薄的感激之念，但我毕竟是沙漠的子嗣…',
+    },
+    {
+        from: '坎蒂丝',
+        to: '艾尔海森',
+        data: '真是奇怪的须弥学者，跟我接触过的其他学者都有些不太一样，他的想法与见解都很独到…希望他的这份锐利，不会打扰到阿如村的安宁吧。',
+    },
+    {
+        from: '坎蒂丝',
+        to: '赛诺',
+        data: '教令院的大风纪官…之前很少到防沙壁的这一侧来，最近却常常出现。关于他，镀金旅团里似乎流传着一些相当可怕的传说…',
+    },
+    {
+        from: '坎蒂丝',
+        to: '迪希雅',
+        data: '迪希雅，她每次带着镀金旅团的人在阿如村寄宿的时候，都能约束好手下的行动，可以说…给我免了很多麻烦。迪希雅小姐，跟看上去大大咧咧的样子不同，是个非常可爱的人哦。',
+    },
+    {
+        from: '多莉',
+        to: '赛诺',
+        data: '我和他算是有点私交。毕竟能为他拿到「七圣召唤」所有周边产品的人，全须弥只有我一个。很罕见吧！教令院里居然有他这种特行独立，眼光不错，又从不讲价的人。',
+    },
+    {
+        from: '多莉',
+        to: '提纳里',
+        data: '他热爱学术就和我热爱摩拉一样。听说他经常会做一些神奇的小玩意儿，只可惜会用什么公务繁忙作为理由，拒绝和我合作批量生产，要不然…可以赚上一大笔摩拉呢！',
+    },
+    {
+        from: '多莉',
+        to: '艾尔海森',
+        data: '他以前试探过我的手下。所以说，教令院的家伙真是又呆板又不诚恳。我又何必冒这个风险呢？懂了吗？小跟班。',
+    },
+    {
+        from: '多莉',
+        to: '卡维',
+        data: '他是跟我有合作的妙论派的人之一，和某些教令院的死脑筋不一样，是个会为理想奋斗的人，我很欣赏他。我悄悄借了他一大——笔摩拉，让他造出了我的艾尔卡萨扎莱宫。可以说没有善良的多莉的资助，就没有今天的卡维。',
+    },
+    {
+        from: '多莉',
+        to: '迪希雅',
+        data: '有时候我会雇佣她帮忙保护商队。毕竟她实力不错，要价也不高，可以说是性价比最优之选。',
+    },
+    {
+        from: '多莉',
+        to: '岩王帝君',
+        data: '岩王帝君离去之前，我每天起来第一件事就是默念：财神在上，保佑多莉日进斗金。现在嘛，求神不如求己。多莉在此，保佑自己日进斗金！',
+    },
+    {
+        from: '多莉',
+        to: '纳西妲(布耶尔)',
+        data: '在须弥，小吉祥草王的信徒非常少。你问我吗？啊，如果她愿意给我摩拉的话，我就是她永恒的信徒。',
+    },
+    {
+        from: '多莉',
+        to: '妮露',
+        data: '她的舞跳得不错，但只留在须弥，还是不能最大程度上发挥出她的价值…我是说，有点屈才。你说你说，如果能把她带出去，在提瓦特举办巡回演出的话，一共能赚多少摩拉呢？',
+    },
+    {
+        from: '多莉',
+        to: '艾莉丝',
+        data: '艾莉丝女士有源源不断的新奇东西，是我的最佳供货商，没有之一。嚯嚯，这种商业机密都告诉你了，你是不是应该交点学费，表示表示呢？',
+    },
+    {
         from: '柯莱',
         to: '提纳里',
         data: '师父虽然平时说话有些严厉，还经常批评那些乱吃毒蘑菇的冒险家，但他其实是个很温柔的人。不仅会耐心地给我补课，还会为我读蒙德寄来的信。我一直很感激他！',
@@ -59,7 +239,7 @@ export const links: Link[] = [
     },
     {
         from: '柯莱',
-        to: '小吉祥草王',
+        to: '纳西妲(布耶尔)',
         data: '草神啊…小时候我很多次想大声问问神明，为什么要让我经历这么多苦难。唉，说不定就连神明自己，也经历着各种无奈的事吧。',
     },
     {
@@ -134,7 +314,7 @@ export const links: Link[] = [
     },
     {
         from: '提纳里',
-        to: '小吉祥草王',
+        to: '纳西妲(布耶尔)',
         data: '我在上学的时候曾听过这样的说法：「植物的历史，便是草之国的历史。」也许说者无心，但我总觉得此话另有深意。如果我有一天能见到小草神大人，她会给我解释吗？',
     },
     {
@@ -696,6 +876,11 @@ export const links: Link[] = [
         from: '雷电将军(巴尔)',
         to: '温迪(巴巴托斯)',
         data: '风神的化身现在还叫这个名字吗？说实话，第一次见他就感觉他浑身透着和我一定相处不来的气质。然后就是，他的确很能喝酒。',
+    },
+    {
+        from: '雷电将军(巴尔)',
+        to: '纳西妲(布耶尔)',
+        data: '我很欣赏她的谦逊，谦逊也的确是智者的美德。她的权能理应可以做到许多超乎想象的事，但布耶尔只是将它用在「纠正与守护」之上…真是个温柔的神明。',
     },
     {
         from: '九条裟罗',
@@ -1315,6 +1500,11 @@ export const links: Link[] = [
         data: '时间会淬炼一切意志。而她，恰好是会为信念付出所有的人。或许正因如此，她才能走到这一步。如有机会，我也想见识一下她为之倾尽一切的「永恒」。',
     },
     {
+        from: '钟离(摩拉克斯)',
+        to: '纳西妲(布耶尔)',
+        data: '智慧之神布耶尔，不仅统管整个须弥，还肩负着守护世界树的职责。若非有大智慧，的确难以司掌这些。拯救世界树一事，整个提瓦特的生灵都理应向她致谢。',
+    },
+    {
         from: '迪奥娜',
         to: '迪卢克',
         text: '讨厌',
@@ -1534,6 +1724,11 @@ export const links: Link[] = [
         from: '温迪(巴巴托斯)',
         to: '雷电将军(巴尔)',
         data: '听说，你把那位不可一世的雷电将军也击败了？啊…想当年她作为影武者的时候，就在追求极致的武技了。如今，也一定会借用各种各样的理由叫你做陪练吧。嗯嗯，偷偷告诉你她的弱点吧，耳朵凑过来——是「甜点心」哦！',
+    },
+    {
+        from: '温迪(巴巴托斯)',
+        to: '纳西妲(布耶尔)',
+        data: '你说草神啊，说到草神，就会先想到她那关于「梦境」的权能吧？与我所作的那些诗歌一样，她所创造的梦境也一样充满了浪漫与想象，我们可是很合得来呢。',
     },
     {
         from: '莫娜',
