@@ -89,12 +89,7 @@ export const links: Link[] = [
     },
     {
         from: '纳西妲(布耶尔)',
-        to: '尘世七执政',
-        data: '好像尘世七执政之间在很久很久以前还会定期联络，只是我的情况比较特殊，已经不记得这段经历了…既然须弥的混乱告一段落，我觉得我该重新见他们一面。你熟识的那几位神明，能为我引荐一下吗？彼女の体は、キングデシェレト遺跡に残留していた力に影響されてしまったの…まるで時間という大きな亀の背から落ちて、永遠に置き去りにされてしまったかのように。興味があるなら、あるいは…彼女を通して、過去のスメールの片隅を覗けるかもしれないわね。I\'m led to believe that long, long ago, the Seven Archons used to stay in regular contact with each other. I\'m a bit of a special case though, so I don\'t have any memory of that time... Now that things have settled down in Sumeru, I think it\'s about time I made contact with them again. You\'re on familiar terms with some of them, right? Would you mind introducing me?아주 아주 오래전에 7명의 집정관은 정기적으로 연락을 주고받았지만, 나는 상황이 좀 특수해서 그때의 기억이 없어…. 수메르의 혼란이 어느 정도 마무리되었으니 다시 만나보고 싶은데, 네가 잘 아는 신들을 나에게 소개 좀 해줄 수 있을까?',
-    },
-    {
-        from: '纳西妲(布耶尔)',
-        to: '散兵',
+        to: '流浪者(散兵)',
         data: '当他自认为追寻已久的愿望终于实现，他眼中所见的究竟是满足，还是更大的空虚呢？正是因为我们不会飞，才会无比向往天空…让他好好想想吧，在拥抱过空无一物的天空之后。長きにわたって追い求めていた願いがようやく叶ったと思った時、彼の瞳に映るものは満足？それとも虚しさかしら？私たちは飛べないからこそ、空に焦がれる…彼にはきちんと考えてほしいものね、からっぽの空を抱いたその後に。When he finally achieved the ambition he thought he\'d been pursuing all along, was he content at last, or only emptier still? We only yearn for the skies because we cannot fly... Hmm, perhaps he should reflect on this once he has held the sheer emptiness of the skies in his grasp.오랫동안 추구해왔던 염원이 이루어졌을 때 그는 만족했을까, 아니면 더 공허해졌을까? 우리는 날지 못하기 때문에 하늘을 날고 싶어 하지… 그가 텅 빈 하늘을 가지고 난 다음 다시 생각해 보라고 하자',
     },
     {
@@ -209,7 +204,7 @@ export const links: Link[] = [
     },
     {
         from: '多莉',
-        to: '岩王帝君',
+        to: '钟离(摩拉克斯)',
         data: '岩王帝君离去之前，我每天起来第一件事就是默念：财神在上，保佑多莉日进斗金。现在嘛，求神不如求己。多莉在此，保佑自己日进斗金！',
     },
     {
@@ -514,7 +509,7 @@ export const links: Link[] = [
     },
     {
         from: '八重神子',
-        to: '国崩',
+        to: '流浪者(散兵)',
         data: '我当时就觉得那是个麻烦，不过她却说毕竟是自己创造之物不愿出手。早知变成现在这样，还不如当初就瞒着她处理掉算了。现在？呵…现在，已经变麻烦啦。',
     },
     {
@@ -641,11 +636,6 @@ export const links: Link[] = [
         from: '五郎',
         to: '珊瑚宫心海',
         data: '珊瑚宫大人作为海祇岛最高领袖，负责掌控大局，制定计划。我负责将细节落实，把控前线的形势。反抗军上下一心，只求胜利。',
-    },
-    {
-        from: '五郎',
-        to: '关于珊瑚宫心海',
-        data: '我对珊瑚宫大人抱有崇高的敬意。珊瑚宫大人神机妙算，没有她的谋略和统筹，反抗军不可能取得如今的战果。只不过，私底下她似乎更偏好安静的生活。没有军事要务的话，我不会主动打搅她。',
     },
     {
         from: '五郎',
@@ -859,7 +849,7 @@ export const links: Link[] = [
     },
     {
         from: '雷电将军(巴尔)',
-        to: '国崩',
+        to: '流浪者(散兵)',
         data: '那小子是制造将军的副产物。对他不加以管束，应该是因为我内心还是觉得对他有所亏欠吧。',
     },
     {
@@ -1615,7 +1605,7 @@ export const links: Link[] = [
     },
     {
         from: '达达利亚',
-        to: '「散兵」',
+        to: '流浪者(散兵)',
         data: '他带着「神之心」与我们失去了联络，后面才有了追回那颗心的行动。我倒是不介意去四处走走，说不定还能在哪儿和你偶遇？彼は「神の心」を手に入れた後、俺たちとの連絡を断ってしまってね。だから、その心を取り戻すために行動を開始した。俺は色んな場所を回るのは別に構わない。もしかすると、偶然どこかで君に会うかもしれないね。After he took the Gnosis, we lost all contact with him. Now comes the task of trying to hunt it down and get it back... I actually don\'t mind it — it means I get to travel all over. Wonder if I\'ll run into you somewhere along the way?그는 「신의 심장」을 가진 후로 우리와 연락이 끊겼어. 그래서 그 심장을 회수하는 작전이 있었던 거지. 난 여기저기 돌아다니는 것을 개의치 않거든. 어쩌면 어디선가 너와 우연히 만나게 될지도 모르고?',
     },
     {
@@ -2690,5 +2680,10 @@ export const links: Link[] = [
         from: '旅行者',
         to: '早柚',
         data: '派蒙：小早柚似乎有很多烦恼呢。派蒙：真是难以理解。旅行者：这大概就是成长的烦恼吧。派蒙：唔，你这句话也很难理解。派蒙：毕竟派蒙是没什么烦恼的。旅行者：嗯···旅行者：糟了，背包里没几个摩拉了，接下来我们要过穷日子了···派蒙：欸？不要啊——旅行者：现在你有烦恼了。派蒙：怎么会这样···',
+    },
+    {
+        from: '旅行者',
+        to: '珊瑚宫心海',
+        data: '派蒙：旅行者，你知道吗？那位珊瑚宫心海，可是海祇岛的「现人神巫女」呢。派蒙：也就是海祇岛的最高领袖！整个海祇岛都归她管哦。派蒙：啊，派蒙也想成为那样的大人物···旅行者：成为大人物之后呢？派蒙：之后就可以伸张正义了呀。比如说···咳咳。派蒙：嫌犯旅行者中午吃三彩团子的时候，自己吃掉了两个，只分给了受害人派蒙一个，严重违反了「派蒙法令」第三十七条――「公平公正」！旅行者：那请问派蒙大人打算如何处理此事？派蒙：当然是罚你给派蒙做好多三彩团子啦，嘿嘿！',
     },
 ]
