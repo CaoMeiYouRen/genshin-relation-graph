@@ -22,8 +22,8 @@ const data = {
         text: node.name,
         color: node.color || colorMap.get(node.elementAttribute || '') || '#000',
         borderColor: 'rgba(0,0,0,0)',
-        width: (node.stars || 4) * 15,
-        height: (node.stars || 4) * 15,
+        width: (node.stars || 4) * 10,
+        height: (node.stars || 4) * 10,
         data: node,
     })),
     links: links.map((link) => {
@@ -38,7 +38,7 @@ const data = {
         return {
             color,
             lineWidth: 3,
-            lineShape: 5,
+            lineShape: 4,
             styleClass: 'line-class',
             ...link,
             data: {

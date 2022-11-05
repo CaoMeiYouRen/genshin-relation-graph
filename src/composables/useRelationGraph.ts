@@ -10,7 +10,7 @@ export function useRelationGraph() {
         defaultJunctionPoint: 'border',
         layouts: [
             {
-                label: '自动布局',
+                layoutLabel: '自动布局',
                 layoutName: 'force',
             },
         ],
@@ -38,7 +38,7 @@ export function useRelationGraph() {
     })
 
     // onUpdated(() => {
-    //     relationGraph.value?.refresh()
+    //     // relationGraph.value?.refresh()
     // })
     return {
         relationGraph,
