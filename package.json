@@ -15,7 +15,7 @@
     "relation-graph": "^1.1.0",
     "vue": "^2.6.12",
     "vue-composable": "^1.0.0-beta.20",
-    "vue-router": "^3.5.1",
+    "vue-router": "3.5.4",
     "vuex": "^3.6.2"
   },
   "devDependencies": {
