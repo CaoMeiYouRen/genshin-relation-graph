@@ -70,25 +70,36 @@ export const nodes: PeopleNode[] = [
     },
     {
         name: '迪希雅',
+        stars: 5,
         weaponType: '双手剑',
         elementAttribute: '火',
         sex: '女',
         country: '须弥',
     },
     {
-        name: '瑶瑶',
-        elementAttribute: '草',
-        sex: '女',
-        country: '璃月',
+        name: '米卡',
+        stars: 4,
+        elementAttribute: '冰',
+        sex: '男',
+        country: '蒙德',
     },
+    // 以上人物还未正式实装，人物关系未知
     {
         name: '艾尔海森',
+        stars: 5,
         weaponType: '单手剑',
         elementAttribute: '草',
         sex: '男',
         country: '须弥',
     },
-    // 以上人物还未正式实装，人物关系未知
+    {
+        name: '瑶瑶',
+        stars: 4,
+        weaponType: '长柄武器',
+        elementAttribute: '草',
+        sex: '女',
+        country: '璃月',
+    },
     {
         name: '珐露珊',
         stars: 4,
