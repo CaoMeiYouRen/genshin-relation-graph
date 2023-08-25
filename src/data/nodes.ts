@@ -36,7 +36,7 @@ export interface PeopleNode {
      *国家
     *
     */
-    country: '蒙德' | '璃月' | '稻妻' | '须弥' | '枫丹' | '纳塔' | '至冬' | '——'
+    country: '蒙德' | '璃月' | '稻妻' | '须弥' | '枫丹' | '纳塔' | '至冬' | '——' | '其它'
 
 }
 export interface NodeType {
@@ -50,23 +50,73 @@ export interface NodeType {
 }
 export const nodes: PeopleNode[] = [
     {
+        name: '芙宁娜(芙卡洛斯)',
+        stars: 5,
+        sex: '女',
+        country: '枫丹',
+    },
+    {
         name: '法尔伽',
         // stars: 5,
         sex: '男',
         country: '蒙德',
     },
+    // 以上人物还未正式实装，人物关系未知
+    {
+        name: '菲米尼',
+        stars: 4,
+        weaponType: '双手剑',
+        elementAttribute: '冰',
+        sex: '男',
+        country: '枫丹',
+    },
+    {
+        name: '林尼',
+        stars: 5,
+        weaponType: '弓',
+        elementAttribute: '火',
+        sex: '男',
+        country: '枫丹',
+    },
+    {
+        name: '琳妮特',
+        stars: 4,
+        weaponType: '单手剑',
+        elementAttribute: '风',
+        sex: '女',
+        country: '枫丹',
+    },
+    {
+        name: '绮良良',
+        stars: 4,
+        weaponType: '单手剑',
+        elementAttribute: '草',
+        sex: '女',
+        country: '稻妻',
+    },
+    {
+        name: '卡维',
+        stars: 4,
+        weaponType: '双手剑',
+        elementAttribute: '草',
+        sex: '男',
+        country: '须弥',
+    },
     {
         name: '白术',
-        // stars: 5,
+        stars: 5,
+        weaponType: '法器',
         elementAttribute: '草',
         sex: '男',
         country: '璃月',
     },
     {
-        name: '卡维',
-        elementAttribute: '草',
+        name: '米卡',
+        stars: 4,
+        weaponType: '长柄武器',
+        elementAttribute: '冰',
         sex: '男',
-        country: '须弥',
+        country: '蒙德',
     },
     {
         name: '迪希雅',
@@ -83,7 +133,6 @@ export const nodes: PeopleNode[] = [
         sex: '男',
         country: '蒙德',
     },
-    // 以上人物还未正式实装，人物关系未知
     {
         name: '艾尔海森',
         stars: 5,
