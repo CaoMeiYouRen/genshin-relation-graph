@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-types */
 export interface PeopleNode {
     /**
      * 姓名
@@ -25,18 +26,18 @@ export interface PeopleNode {
      *元素属性
      *
      */
-    elementAttribute?: '风' | '岩' | '雷' | '草' | '水' | '火' | '冰' | '风、岩'
+    elementAttribute?: '风' | '岩' | '雷' | '草' | '水' | '火' | '冰' | (string & {})
 
     /**
      *性别
      *
      */
-    sex: '男' | '女' | '男/女'
+    sex: '男' | '女' | '男/女' | (string & {})
     /**
      *国家
     *
     */
-    country: '蒙德' | '璃月' | '稻妻' | '须弥' | '枫丹' | '纳塔' | '至冬' | '——' | '其它'
+    country: '蒙德' | '璃月' | '稻妻' | '须弥' | '枫丹' | '纳塔' | '至冬' | (string & {})
 
 }
 export interface NodeType {
@@ -50,18 +51,76 @@ export interface NodeType {
 }
 export const nodes: PeopleNode[] = [
     {
-        name: '芙宁娜(芙卡洛斯)',
-        stars: 5,
-        sex: '女',
-        country: '枫丹',
-    },
-    {
         name: '法尔伽',
         // stars: 5,
         sex: '男',
         country: '蒙德',
     },
     // 以上人物还未正式实装，人物关系未知
+    {
+        name: '闲云',
+        stars: 5,
+        weaponType: '法器',
+        elementAttribute: '风',
+        sex: '女',
+        country: '璃月',
+    },
+    {
+        name: '嘉明',
+        stars: 4,
+        weaponType: '双手剑',
+        elementAttribute: '火',
+        sex: '男',
+        country: '璃月',
+    },
+    {
+        name: '夏沃蕾',
+        stars: 4,
+        weaponType: '长柄武器',
+        elementAttribute: '火',
+        sex: '女',
+        country: '枫丹',
+    },
+    {
+        name: '娜维娅',
+        stars: 5,
+        weaponType: '双手剑',
+        elementAttribute: '岩',
+        sex: '女',
+        country: '枫丹',
+    },
+    {
+        name: '芙宁娜(芙卡洛斯)',
+        stars: 5,
+        weaponType: '单手剑',
+        elementAttribute: '水',
+        sex: '女',
+        country: '枫丹',
+    },
+    {
+        name: '夏洛蒂',
+        stars: 4,
+        weaponType: '法器',
+        elementAttribute: '冰',
+        sex: '女',
+        country: '枫丹',
+    },
+    {
+        name: '莱欧斯利',
+        stars: 5,
+        weaponType: '法器',
+        elementAttribute: '冰',
+        sex: '男',
+        country: '枫丹',
+    },
+    {
+        name: '那维莱特',
+        stars: 5,
+        weaponType: '法器',
+        elementAttribute: '水',
+        sex: '男',
+        country: '枫丹',
+    },
     {
         name: '菲米尼',
         stars: 4,
