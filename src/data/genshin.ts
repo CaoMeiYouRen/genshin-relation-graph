@@ -1,5 +1,6 @@
 import { nodes } from './nodes'
 import { links } from './links'
+import { alias } from './alias'
 
 const colorMap = new Map([
     ['火', '#aa2116'],
@@ -14,6 +15,30 @@ const colorMap = new Map([
 const lineColorMap = new Map([
     ['旅行者', '#fdb933'],
 ])
+
+/**
+ *  找到当前角色的唯一名称（解决别名问题）
+ * @param name
+ */
+function getAliasName(name: string) {
+    const newName = alias.find((e) => [e.name, ...e.anotherNames].includes(name))
+    if (newName) {
+        if (newName.anotherNames?.length >= 1) {
+            return `${newName.name}(${newName.anotherNames[0]})`
+        }
+        return newName.name
+    }
+    return name
+}
+
+nodes.forEach((e) => {
+    e.name = getAliasName(e.name)
+})
+
+links.forEach((e) => {
+    e.from = getAliasName(e.from)
+    e.to = getAliasName(e.to)
+})
 
 const data = {
     rootId: '旅行者',

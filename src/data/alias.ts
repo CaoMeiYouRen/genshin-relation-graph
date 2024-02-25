@@ -23,8 +23,8 @@ export const alias: AliasNode[] = [
     {
         name: '雷电将军',
         anotherNames: [
-            '巴尔泽布',
             '巴尔',
+            '巴尔泽布',
             '雷之神',
             '雷电影',
         ],
@@ -77,9 +77,10 @@ export const alias: AliasNode[] = [
     {
         name: '流浪者',
         anotherNames: [
-            '国崩',
             '「散兵」',
+            '国崩',
             '斯卡拉姆齐',
+            '散兵',
         ],
     },
     {
@@ -118,13 +119,13 @@ export const alias: AliasNode[] = [
     {
         name: '闲云',
         anotherNames: [
-            '留云借风真君',
+            // '留云借风真君',
         ],
     },
     {
         name: '八重神子',
         anotherNames: [
-            '狐耳女人', // 荒泷一斗 语音
+            // '狐耳女人', // 荒泷一斗 语音
         ],
     },
 

@@ -90,7 +90,7 @@ export const nodes: PeopleNode[] = [
         country: '枫丹',
     },
     {
-        name: '芙宁娜(芙卡洛斯)',
+        name: '芙宁娜',
         stars: 5,
         weaponType: '单手剑',
         elementAttribute: '水',
@@ -217,7 +217,7 @@ export const nodes: PeopleNode[] = [
         country: '须弥',
     },
     {
-        name: '流浪者(散兵)',
+        name: '流浪者',
         stars: 5,
         weaponType: '法器',
         elementAttribute: '风',
@@ -225,7 +225,7 @@ export const nodes: PeopleNode[] = [
         country: '须弥',
     },
     {
-        name: '纳西妲(布耶尔)',
+        name: '纳西妲',
         stars: 5,
         weaponType: '法器',
         elementAttribute: '草',
@@ -377,7 +377,7 @@ export const nodes: PeopleNode[] = [
         country: '稻妻',
     },
     {
-        name: '雷电将军(巴尔)',
+        name: '雷电将军',
         stars: 5,
         weaponType: '长柄武器',
         elementAttribute: '雷',
@@ -489,7 +489,7 @@ export const nodes: PeopleNode[] = [
         country: '璃月',
     },
     {
-        name: '钟离(摩拉克斯)',
+        name: '钟离',
         stars: 5,
         weaponType: '长柄武器',
         elementAttribute: '岩',
@@ -521,7 +521,7 @@ export const nodes: PeopleNode[] = [
         country: '蒙德',
     },
     {
-        name: '温迪(巴巴托斯)',
+        name: '温迪',
         stars: 5,
         weaponType: '弓',
         elementAttribute: '风',

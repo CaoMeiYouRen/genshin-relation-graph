@@ -1,5 +1,5 @@
 import RelationGraph from 'relation-graph'
-import { ref, onMounted } from '@vue/composition-api'
+import { ref, onMounted, onUpdated } from '@vue/composition-api'
 import data from '@/data/genshin'
 import { NodeType, PeopleNode } from '@/data/nodes'
 export function useRelationGraph() {
@@ -38,7 +38,7 @@ export function useRelationGraph() {
     })
 
     // onUpdated(() => {
-    //     // relationGraph.value?.refresh()
+    //     relationGraph.value?.refresh()
     // })
     return {
         relationGraph,
